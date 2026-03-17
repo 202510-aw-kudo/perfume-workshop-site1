@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" data-default-locale="en" data-supported-locales="ja,en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#E8D8D6">
+    <title>Fragrance Workshop Asakusa</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="container navbar">
+                <a class="brand" href="#top" aria-label="Fragrance Workshop home">
+                    <span class="brand-copy">
+                        <strong>Atelier Asakusa</strong>
+                        <small>Fragrance Workshop</small>
+                    </span>
+                </a>
+
+                <div class="navbar-actions">
+                    <nav class="navlinks" id="site-nav" aria-label="Primary">
+                        <a href="#about" data-lang-en="About" data-lang-jp="概要">About</a>
+                        <a href="#pricing" data-lang-en="Pricing" data-lang-jp="料金">Pricing</a>
+                        <a href="#reservation" data-lang-en="Reservation" data-lang-jp="予約">Reservation</a>
+                        <a href="#faq" data-lang-en="FAQ" data-lang-jp="よくある質問">FAQ</a>
+                        <a href="#access" data-lang-en="Access" data-lang-jp="アクセス">Access</a>
+                    </nav>
+
+                    <div class="language-switch" aria-label="Language selector" data-i18n-control>
+                        <button class="language-option" type="button" lang="ja" aria-pressed="false"
+                            data-lang-switch="ja" data-locale="ja">JP</button>
+                        <button class="language-option is-active" type="button" lang="en" aria-pressed="true"
+                            data-lang-switch="en" data-locale="en">EN</button>
+                    </div>
+
+                    <a class="nav-cta" href="#reservation" data-lang-en="Book a private session"
+                        data-lang-jp="プライベート予約">Book a private session</a>
+                </div>
+
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+                    aria-label="Open navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main id="top">
+            <section class="hero" data-i18n-section="hero">
+                <div class="container hero-content">
+                    <p class="hero-kicker" data-lang-en="Private fragrance atelier in Asakusa"
+                        data-lang-jp="浅草のプライベート香水アトリエ">Private fragrance atelier in Asakusa</p>
+                    <h1 class="hero-title">
+                        <span data-lang-en="Create Your Own" data-lang-jp="自分だけの" data-lang-target="text">Create Your Own</span>
+                        <span data-lang-en="Perfume in Asakusa" data-lang-jp="香水を浅草で" data-lang-target="text">Perfume in Asakusa</span>
+                    </h1>
+                    <p class="hero-description"
+                        data-lang-en="Discover Japanese-inspired botanicals, blend your own signature scent, and leave with an elegant bottle crafted entirely around your taste."
+                        data-lang-jp="和の植物に着想を得た香りに触れながら、自分だけのシグネチャーフレグランスを調香し、好みに合わせて仕上げた上質なボトルを持ち帰れます。">
+                        Discover Japanese-inspired botanicals, blend your own signature scent, and leave with an
+                        elegant bottle crafted entirely around your taste.
+                    </p>
+                    <div class="hero-meta">
+                        <span data-lang-en="From &yen;5,500" data-lang-jp="¥5,500から">From &yen;5,500</span>
+                        <span data-lang-en="Approx. 60 minutes" data-lang-jp="約60分">Approx. 60 minutes</span>
+                        <span data-lang-en="English support available" data-lang-jp="英語対応可能">English support available</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="hero-cta" href="#reservation" data-lang-en="Reserve your session"
+                            data-lang-jp="予約する">Reserve your session</a>
+                        <a class="hero-link" href="#pricing" data-lang-en="Explore experiences"
+                            data-lang-jp="プランを見る">Explore experiences</a>
+                    </div>
+                    <p class="hero-note"
+                        data-lang-en="A limited number of private appointments are released each day."
+                        data-lang-jp="プライベート枠は毎日数量限定でご案内しています。">A limited number of private appointments are released each day.</p>
+                </div>
+            </section>
+
+            <section class="section intro-section" id="about" data-i18n-section="about">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="section-kicker" data-lang-en="About" data-lang-jp="概要">About</p>
+                        <h2 data-lang-en="The fragrance experience" data-lang-jp="香りをつくる体験">The fragrance experience</h2>
+                        <p class="section-lead"
+                            data-lang-en="A calm, design-led workshop inspired by Japanese nature, refined materials, and the art of slow creation."
+                            data-lang-jp="日本の自然、美しい素材、そして丁寧に作る時間に着想を得た、静かで洗練されたワークショップです。">
+                            A calm, design-led workshop inspired by Japanese nature, refined materials, and the art of
+                            slow creation.
+                        </p>
+                    </div>
+
+                    <div class="experience-grid">
+                        <article class="experience-card">
+                            <img src="perfume-images/about-concept.webp" alt="Perfume ingredients and atelier tools"
+                                width="1024" height="1024" loading="lazy" decoding="async">
+                            <div class="experience-content">
+                                <p class="card-label" data-lang-en="Concept" data-lang-jp="コンセプト">Concept</p>
+                                <h3 data-lang-en="Crafted around Japanese sensibility"
+                                    data-lang-jp="日本の感性を映した香りづくり">Crafted around Japanese sensibility</h3>
+                                <p
+                                    data-lang-en="Inspired by nature and traditional craftsmanship, the workshop invites you to explore subtle accords, delicate balance, and a more personal approach to perfume."
+                                    data-lang-jp="自然や伝統的なものづくりの美意識から着想を得て、繊細な調和とバランスを感じながら、自分らしい香りと出会える体験です。">
+                                    Inspired by nature and traditional craftsmanship, the workshop invites you to
+                                    explore subtle accords, delicate balance, and a more personal approach to perfume.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="experience-card">
+                            <img src="perfume-images/about-create.webp" alt="Guest creating a custom perfume blend"
+                                width="3584" height="4800" loading="lazy" decoding="async">
+                            <div class="experience-content">
+                                <p class="card-label" data-lang-en="Creation" data-lang-jp="調香">Creation</p>
+                                <h3 data-lang-en="Blend a scent that feels entirely yours"
+                                    data-lang-jp="自分らしさを映す香りを調合">Blend a scent that feels entirely yours</h3>
+                                <p
+                                    data-lang-en="During the workshop, you will explore a variety of natural scents inspired by Japanese nature. With guidance from our staff, you will blend your own perfume and create a fragrance that reflects your personality. At the end of the experience, you will take home a bottle of your unique perfume as a special memory of Asakusa."
+                                    data-lang-jp="ワークショップでは、日本の自然に着想を得た多彩な香りを試しながら、スタッフの案内とともに自分だけの香水を調合します。最後には、浅草の思い出として特別な一本をお持ち帰りいただけます。">
+                                    During the workshop, you will explore a variety of natural scents inspired by
+                                    Japanese nature. With guidance from our staff, you will blend your own perfume and
+                                    create a fragrance that reflects your personality. At the end of the experience,
+                                    you will take home a bottle of your unique perfume as a special memory of Asakusa.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section flow-section" data-i18n-section="process">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="section-kicker" data-lang-en="Process" data-lang-jp="流れ">Process</p>
+                        <h2 data-lang-en="A simple and elegant flow" data-lang-jp="シンプルで上質な体験の流れ">A simple and elegant flow</h2>
+                    </div>
+
+                    <div class="flow-grid">
+                        <article class="flow-card">
+                            <div class="flow-media">
+                                <img src="perfume-images/flow-step-1.webp" alt="Choosing fragrance notes" width="5504"
+                                    height="3072" loading="lazy" decoding="async">
+                            </div>
+                            <div class="flow-content">
+                                <p class="flow-step">01</p>
+                                <h3 data-lang-en="Choose your notes" data-lang-jp="香りを選ぶ">Choose your notes</h3>
+                                <p data-lang-en="Discover a curated library of scents and identify the accords that resonate with you."
+                                    data-lang-jp="厳選された香りのライブラリーから、心地よく感じるノートを見つけます。">Discover a curated library of scents and identify the accords that resonate with
+                                    you.</p>
+                            </div>
+                        </article>
+
+                        <article class="flow-card">
+                            <div class="flow-media">
+                                <img src="perfume-images/flow-step-2.webp" alt="Blending perfume in the atelier"
+                                    width="1536" height="1024" loading="lazy" decoding="async">
+                            </div>
+                            <div class="flow-content">
+                                <p class="flow-step">02</p>
+                                <h3 data-lang-en="Blend with guidance" data-lang-jp="案内に沿って調合">Blend with guidance</h3>
+                                <p data-lang-en="Adjust balance, depth, and character with support from our atelier team."
+                                    data-lang-jp="アトリエスタッフのサポートを受けながら、バランスや奥行き、個性を整えます。">Adjust balance, depth, and character with support from our atelier team.</p>
+                            </div>
+                        </article>
+
+                        <article class="flow-card">
+                            <div class="flow-media">
+                                <img src="perfume-images/flow-step-3.webp" alt="Finished perfume bottle to take home"
+                                    width="1536" height="1024" loading="lazy" decoding="async">
+                            </div>
+                            <div class="flow-content">
+                                <p class="flow-step">03</p>
+                                <h3 data-lang-en="Take your bottle home" data-lang-jp="完成した一本を持ち帰る">Take your bottle home</h3>
+                                <p data-lang-en="Leave with a finished fragrance that captures your visit in a tangible way."
+                                    data-lang-jp="浅草での時間をかたちにした、完成した香りをお持ち帰りいただけます。">Leave with a finished fragrance that captures your visit in a tangible way.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section pricing-section" id="pricing" data-i18n-section="pricing">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="section-kicker" data-lang-en="Pricing" data-lang-jp="料金">Pricing</p>
+                        <h2 data-lang-en="Choose the experience that suits you" data-lang-jp="お好みに合う体験を選ぶ">Choose the experience that suits you</h2>
+                    </div>
+
+                    <div class="pricing-grid">
+                        <article class="pricing-card">
+                            <img class="pricing-image" src="perfume-images/pricing-standard.webp"
+                                alt="Standard perfume workshop experience" width="1024" height="1536"
+                                loading="lazy" decoding="async">
+                            <div class="pricing-content">
+                                <p class="card-label" data-lang-en="For one guest" data-lang-jp="1名様向け">For one guest</p>
+                                <h3 data-lang-en="Standard Session" data-lang-jp="スタンダードセッション">Standard Session</h3>
+                                <p class="pricing-details"
+                                    data-lang-en="Create one personalized perfume in a private 60-minute atelier session."
+                                    data-lang-jp="60分のプライベートアトリエで、自分だけの香水を1本作ります。">Create one personalized perfume in a private 60-minute atelier session.</p>
+                                <div class="pricing-footer">
+                                    <p class="pricing-price">&yen;5,500</p>
+                                    <a class="pricing-button" href="#reservation" data-lang-en="Book now"
+                                        data-lang-jp="今すぐ予約">Book now</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="pricing-card featured">
+                            <div class="pricing-badge" data-lang-en="Most popular" data-lang-jp="人気プラン">Most popular</div>
+                            <img class="pricing-image" src="perfume-images/pricing-couple.webp"
+                                alt="Couple perfume workshop experience" width="1536" height="1024"
+                                loading="lazy" decoding="async">
+                            <div class="pricing-content">
+                                <p class="card-label" data-lang-en="For two guests" data-lang-jp="2名様向け">For two guests</p>
+                                <h3 data-lang-en="Couple Session" data-lang-jp="ペアセッション">Couple Session</h3>
+                                <p class="pricing-details"
+                                    data-lang-en="Create two fragrances together and enjoy a shared atelier experience."
+                                    data-lang-jp="2つの香りを一緒に作りながら、共有のアトリエ体験を楽しめます。">Create two fragrances together and enjoy a shared atelier experience.</p>
+                                <div class="pricing-footer">
+                                    <p class="pricing-price">&yen;10,000</p>
+                                    <a class="pricing-button" href="#reservation" data-lang-en="Reserve together"
+                                        data-lang-jp="2名で予約">Reserve together</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="pricing-card">
+                            <img class="pricing-image" src="perfume-images/pricing-addons.webp"
+                                alt="Luxury bottle and extras" width="1184" height="864" loading="lazy"
+                                decoding="async">
+                            <div class="pricing-content">
+                                <p class="card-label" data-lang-en="Optional extras" data-lang-jp="オプション">Optional extras</p>
+                                <h3 data-lang-en="Finishing Touches" data-lang-jp="仕上げオプション">Finishing Touches</h3>
+                                <p class="pricing-details"
+                                    data-lang-en="Upgrade your bottle, select premium ingredients, or add gift packaging."
+                                    data-lang-jp="ボトルのアップグレード、特別な香料、ギフト包装などを追加できます。">Upgrade your bottle, select premium ingredients, or add gift packaging.</p>
+                                <div class="pricing-footer">
+                                    <p class="pricing-price" data-lang-en="From &yen;1,000" data-lang-jp="&yen;1,000〜">From &yen;1,000</p>
+                                    <a class="pricing-button secondary" href="#reservation" data-lang-en="Ask on site"
+                                        data-lang-jp="当日相談">Ask on site</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section reservation-section" id="reservation" data-i18n-section="reservation">
+                <div class="container reservation-layout">
+                    <div class="reservation-media">
+                        <img src="perfume-images/reserve-workshop.webp" alt="Elegant perfume workshop in Asakusa"
+                            width="1536" height="1024" loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="reservation-content">
+                        <p class="section-kicker" data-lang-en="Reservation" data-lang-jp="予約">Reservation</p>
+                        <h2 data-lang-en="Reserve your atelier visit" data-lang-jp="アトリエ体験を予約する">Reserve your atelier visit</h2>
+                        <p class="section-lead"
+                            data-lang-en="The booking process is simple and designed to keep the experience calm from the very first step."
+                            data-lang-jp="予約の流れはシンプルで、最初の一歩から落ち着いた体験になるよう設計されています。">
+                            The booking process is simple and designed to keep the experience calm from the very first
+                            step.
+                        </p>
+
+                        <div class="reserve-steps">
+                            <article class="reserve-step">
+                                <div class="reserve-step-icon"><i class="fa-regular fa-calendar"></i></div>
+                                <h3 data-lang-en="Select a date" data-lang-jp="日付を選ぶ">Select a date</h3>
+                                <p data-lang-en="Choose the day that fits your travel schedule."
+                                    data-lang-jp="旅程に合う日程を選べます。">Choose the day that fits your travel schedule.</p>
+                            </article>
+                            <article class="reserve-step">
+                                <div class="reserve-step-icon"><i class="fa-solid fa-user-group"></i></div>
+                                <h3 data-lang-en="Choose guests" data-lang-jp="人数を選ぶ">Choose guests</h3>
+                                <p data-lang-en="Book for yourself, for two, or for a small private visit."
+                                    data-lang-jp="1名、2名、または少人数のプライベート利用で予約できます。">Book for yourself, for two, or for a small private visit.</p>
+                            </article>
+                            <article class="reserve-step">
+                                <div class="reserve-step-icon"><i class="fa-regular fa-credit-card"></i></div>
+                                <h3 data-lang-en="Confirm payment" data-lang-jp="支払いを確認">Confirm payment</h3>
+                                <p data-lang-en="Secure the session with a smooth and simple checkout."
+                                    data-lang-jp="スムーズで簡単な決済で予約を確定します。">Secure the session with a smooth and simple checkout.</p>
+                            </article>
+                            <article class="reserve-step">
+                                <div class="reserve-step-icon"><i class="fa-solid fa-check"></i></div>
+                                <h3 data-lang-en="Receive details" data-lang-jp="詳細を受け取る">Receive details</h3>
+                                <p data-lang-en="Your confirmation arrives instantly with all practical information."
+                                    data-lang-jp="確認メールに必要な案内がすぐに届きます。">Your confirmation arrives instantly with all practical information.</p>
+                            </article>
+                        </div>
+
+                        <a href="#" class="reserve-button" data-lang-en="Reserve now" data-lang-jp="今すぐ予約">Reserve now</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section faq-section" id="faq" data-i18n-section="faq">
+                <div class="container faq-shell">
+                    <div class="section-heading">
+                        <p class="section-kicker" data-lang-en="FAQ" data-lang-jp="よくある質問">FAQ</p>
+                        <h2 data-lang-en="Helpful details before your visit" data-lang-jp="ご来店前のご案内">Helpful details before your visit</h2>
+                    </div>
+
+                    <div class="faq-accordion" data-accordion>
+                        <article class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-question" type="button" id="faq-question-1" aria-expanded="false"
+                                    aria-controls="faq-answer-1">
+                                    <span data-lang-en="Do I need to bring anything?"
+                                        data-lang-jp="持ち物は必要ですか？">Do I need to bring anything?</span>
+                                    <span class="faq-arrow" aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="faq-answer-1" role="region" aria-labelledby="faq-question-1"
+                                hidden>
+                                <div class="faq-answer-inner">
+                                    <p data-lang-en="No. All ingredients, tools, and materials are prepared for you at the atelier."
+                                        data-lang-jp="いいえ。材料、道具、備品はすべてアトリエでご用意しています。">No. All ingredients, tools, and materials are prepared for you at the atelier.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-question" type="button" id="faq-question-2" aria-expanded="false"
+                                    aria-controls="faq-answer-2">
+                                    <span data-lang-en="How long does the workshop last?"
+                                        data-lang-jp="ワークショップの所要時間は？">How long does the workshop last?</span>
+                                    <span class="faq-arrow" aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="faq-answer-2" role="region" aria-labelledby="faq-question-2"
+                                hidden>
+                                <div class="faq-answer-inner">
+                                    <p data-lang-en="Most sessions last around one hour, with a little extra time for final adjustments and packaging."
+                                        data-lang-jp="ほとんどのセッションは約1時間で、最終調整や包装の時間が少し加わります。">Most sessions last around one hour, with a little extra time for final adjustments and packaging.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-question" type="button" id="faq-question-3" aria-expanded="false"
+                                    aria-controls="faq-answer-3">
+                                    <span data-lang-en="Can I cancel or reschedule?"
+                                        data-lang-jp="キャンセルや日程変更はできますか？">Can I cancel or reschedule?</span>
+                                    <span class="faq-arrow" aria-hidden="true">+</span>
+                                </button>
+                            </h3>
+                            <div class="faq-answer" id="faq-answer-3" role="region" aria-labelledby="faq-question-3"
+                                hidden>
+                                <div class="faq-answer-inner">
+                                    <p data-lang-en="Yes. Changes are possible up to 24 hours before your reservation, subject to availability."
+                                        data-lang-jp="はい。空き状況に応じて、ご予約の24時間前まで変更可能です。">Yes. Changes are possible up to 24 hours before your reservation, subject to availability.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section access-section" id="access" data-i18n-section="access">
+                <div class="container access-layout">
+                    <div class="access-copy">
+                        <p class="section-kicker" data-lang-en="Access" data-lang-jp="アクセス">Access</p>
+                        <h2 data-lang-en="In the heart of Asakusa" data-lang-jp="浅草の中心で">In the heart of Asakusa</h2>
+                        <p class="section-lead"
+                            data-lang-en="An intimate fragrance space located a short walk from Asakusa Station, surrounded by the calm rhythm of old Tokyo."
+                            data-lang-jp="浅草駅から徒歩圏内、古き東京の穏やかな空気に包まれた親密なフレグランス空間です。">
+                            An intimate fragrance space located a short walk from Asakusa Station, surrounded by the
+                            calm rhythm of old Tokyo.
+                        </p>
+
+                        <div class="access-info">
+                            <article class="access-card">
+                                <h3><i class="fa-solid fa-location-dot"></i><span data-lang-en="Address"
+                                        data-lang-jp="住所">Address</span></h3>
+                                <p data-lang-en="1-2-3 Asakusa, Taito City, Tokyo, Japan"
+                                    data-lang-jp="〒111-0032 東京都台東区浅草1-2-3">1-2-3 Asakusa, Taito City, Tokyo, Japan</p>
+                            </article>
+                            <article class="access-card">
+                                <h3><i class="fa-solid fa-train"></i><span data-lang-en="Nearest station"
+                                        data-lang-jp="最寄り駅">Nearest station</span></h3>
+                                <p data-lang-en="Asakusa Station, around 5 minutes on foot"
+                                    data-lang-jp="浅草駅から徒歩約5分">Asakusa Station, around 5 minutes on foot</p>
+                            </article>
+                            <article class="access-card">
+                                <h3><i class="fa-regular fa-clock"></i><span data-lang-en="Opening hours"
+                                        data-lang-jp="営業時間">Opening hours</span></h3>
+                                <p data-lang-en="Daily from 10:00 to 18:00"
+                                    data-lang-jp="毎日 10:00 - 18:00">Daily from 10:00 to 18:00</p>
+                            </article>
+                        </div>
+
+                        <div class="access-features">
+                            <div class="access-feature"><i class="fa-solid fa-train-subway"></i><span
+                                    data-lang-en="Easy metro access" data-lang-jp="駅から便利">Easy metro access</span></div>
+                            <div class="access-feature"><i class="fa-solid fa-square-parking"></i><span
+                                    data-lang-en="Nearby parking" data-lang-jp="近隣駐車場あり">Nearby parking</span></div>
+                            <div class="access-feature"><i class="fa-solid fa-globe"></i><span
+                                    data-lang-en="English support" data-lang-jp="英語対応">English support</span></div>
+                        </div>
+                    </div>
+
+                    <div class="access-map-area">
+                        <img class="access-map" src="perfume-images/access-map.webp" alt="Map showing the atelier location"
+                            width="778" height="624" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div class="footer-brand">
+                    <a class="brand footer-brand-link" href="#top" aria-label="Fragrance Workshop home">
+                        <span class="brand-copy">
+                            <strong>Atelier Asakusa</strong>
+                            <small>Fragrance Workshop</small>
+                        </span>
+                    </a>
+                    <p data-lang-en="Create your own perfume in a calm, refined atelier in Asakusa."
+                        data-lang-jp="浅草の静かで洗練されたアトリエで、自分だけの香水を作れます。">Create your own perfume in a calm, refined atelier in Asakusa.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3 data-lang-en="Navigate" data-lang-jp="ナビゲーション">Navigate</h3>
+                    <ul>
+                        <li><a href="#about" data-lang-en="About" data-lang-jp="概要">About</a></li>
+                        <li><a href="#pricing" data-lang-en="Pricing" data-lang-jp="料金">Pricing</a></li>
+                        <li><a href="#reservation" data-lang-en="Reservation" data-lang-jp="予約">Reservation</a></li>
+                        <li><a href="#access" data-lang-en="Access" data-lang-jp="アクセス">Access</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3 data-lang-en="Information" data-lang-jp="ご案内">Information</h3>
+                    <ul>
+                        <li><a href="#faq" data-lang-en="FAQ" data-lang-jp="よくある質問">FAQ</a></li>
+                        <li><a href="#" data-lang-en="Privacy Policy" data-lang-jp="プライバシーポリシー">Privacy Policy</a></li>
+                        <li><a href="#" data-lang-en="Terms of Service" data-lang-jp="利用規約">Terms of Service</a></li>
+                        <li><a href="#" data-lang-en="Contact" data-lang-jp="お問い合わせ">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3 data-lang-en="Follow" data-lang-jp="フォロー">Follow</h3>
+                    <div class="footer-social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container footer-bottom">
+                <p>&copy; 2026 Atelier Asakusa. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
